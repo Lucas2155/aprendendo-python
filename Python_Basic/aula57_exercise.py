@@ -15,7 +15,6 @@ while True:
         valor = input('Valor: ')
         lista.append(valor)
         print(valor)
-        continue
     elif opcao == 'a':
         apagar = input('Escolha o índice que deseja apagar: ')
         apagar_int = int(apagar)
